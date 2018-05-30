@@ -1,22 +1,22 @@
 # Add following coins to bisq
 
 ## BitCloud 
-BTDX
-https://bit-cloud.info
-https://chainz.cryptoid.info/btdx
-https://github.com/LIMXTEC/Bitcloud
+* BTDX
+* https://bit-cloud.info
+* https://chainz.cryptoid.info/btdx
+* https://github.com/LIMXTEC/Bitcloud
 
 ## Diamond
-DMD
-https://bit.diamonds
-https://chainz.cryptoid.info/dmd
-https://github.com/LIMXTEC/DMDv3
+* DMD
+* https://bit.diamonds
+* https://chainz.cryptoid.info/dmd
+* https://github.com/LIMXTEC/DMDv3
 
 ## MegaCoin
-MEC
-https://www.megacoin.eu
-https://chainz.cryptoid.info/mec
-https://github.com/LIMXTEC/Megacoin
+* MEC
+* https://www.megacoin.eu
+* https://chainz.cryptoid.info/mec
+* https://github.com/LIMXTEC/Megacoin
 
 
 # How to list an asset
