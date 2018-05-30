@@ -22,7 +22,7 @@
 # How to list an asset
 See https://github.com/bisq-network/bisq-docs/blob/master/exchange/howto/list-asset.adoc
 
-## Step 0.
+## Step 0. Fork and dedicated branch
 Fork https://github.com/dalijolijo/bisq-assets
 
 __Create dedicated branch in your fork:__
@@ -58,14 +58,14 @@ Date:   Wed Aug 1 00:00:00 1979 -0800
 
 ## Step 6. Submit your pull request
 Pull Request to bisq-network/bisq-assets repository’s master branch
-Important: Check the "Allow edits from maintainers" box in pull requests (see https://github.com/bisq-network/style/issues/4)
+* __Important:__ Check the "Allow edits from maintainers" box in pull requests (see https://github.com/bisq-network/style/issues/4)
 
 __Pull request message:__
 ```
 - Official project URL: [url]
 - Official block explorer URL: [url]
 ```
-Example
+__Example:__
 ```
 - Official project URL: https://bit-cloud.info
 - Official block explorer URL: https://chainz.cryptoid.info/btdx
