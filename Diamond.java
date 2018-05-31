@@ -44,12 +44,21 @@ public class Diamond extends Coin {
         }
     }
 
-
+ /*
+ * src/chainparams.cpp
+ * PIVX
+ * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30);
+ * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
+ * 
+ * DMD
+ * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 90);
+ * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 8)  
+ */ 
     public static class DiamondParams extends NetworkParametersAdapter {
-
+        
         public DiamondParams() {
-            addressHeader = 30;
-            p2shHeader = 13;
+            addressHeader = 90; //PIVX 30
+            p2shHeader = 8; //PIVX 13
             acceptableAddressCodes = new int[]{addressHeader, p2shHeader};
         }
     }
