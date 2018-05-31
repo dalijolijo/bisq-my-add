@@ -3,18 +3,21 @@
 ## BitCloud 
 * BTDX
 * https://bit-cloud.info
+* https://bitcointalk.org/index.php?topic=2092583.0
 * https://chainz.cryptoid.info/btdx
 * https://github.com/LIMXTEC/Bitcloud
 
 ## Diamond
 * DMD
 * https://bit.diamonds
+* https://bitcointalk.org/index.php?topic=580725.0
 * https://chainz.cryptoid.info/dmd
 * https://github.com/LIMXTEC/DMDv3
 
 ## MegaCoin
 * MEC
 * https://www.megacoin.eu
+* https://bitcointalk.org/index.php?topic=2242071
 * https://chainz.cryptoid.info/mec
 * https://github.com/LIMXTEC/Megacoin
 
