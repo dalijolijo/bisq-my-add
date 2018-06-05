@@ -29,8 +29,10 @@ See https://github.com/bisq-network/bisq-docs/blob/master/exchange/howto/list-as
 Fork https://github.com/dalijolijo/bisq-assets
 
 __Create dedicated branch in your fork:__
-* list-foo-asset
-* list-bitcloud-coin
+* e.g. list-foo-asset
+* list-bitcloud-asset
+* list-megacoin-asset
+* list-diamond-asset
 
 ## Step 1. Implement your asset
 Coin implementations must be located within the ``bisq.asset.coins`` package.
