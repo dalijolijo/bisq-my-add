@@ -26,13 +26,21 @@
 See https://github.com/bisq-network/bisq-docs/blob/master/exchange/howto/list-asset.adoc
 
 ## Step 0. Fork and dedicated branch
-Fork https://github.com/dalijolijo/bisq-assets
+Fork https://github.com/bisq-network/bisq-assets to own GitHub repository
 
-__Create dedicated branch in your fork:__
+__Create dedicated branch in your fork__
 * e.g. list-foo-asset
 * list-bitcloud-asset
 * list-megacoin-asset
 * list-diamond-asset
+
+__Preparations__
+* For Ubuntu 16.04:
+```
+apt-get install default-jdk
+git clone -b <list-foo-asset> http://github.com/dalijolijo/bisq-assets
+
+```
 
 ## Step 1. Implement your asset
 Coin implementations must be located within the ``bisq.asset.coins`` package.
