@@ -47,19 +47,19 @@ public class MegaCoin extends Coin {
  /*
  * src/chainparams.cpp
  * PIVX
- * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30); //0x1E
- * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13); //0x0D
+ * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30); // 30 => [hex] => 1Exxxx => [Base58 Encode] => Dxxxx
+ * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13); // 13 => [hex] => 0Dxxxx => [Base58 Encode] => 6xxxx
  * 
  * MEC
- * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
- * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
- * base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50);
+ * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50); // 50 => [hex] => 32xxxx => [Base58 Encode] => Mxxxx
+ * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5); // 5 => [hex] => 05xxxx => [Base58 Encode] => 3xxxx
+ * base58Prefixes[SCRIPT_ADDRESS2] = std::vector<unsigned char>(1,50); // 50 => [hex] => 32xxxx => [Base58 Encode] => Mxxxx
  */ 
     public static class MegaCoinParams extends NetworkParametersAdapter {
         
         public MegaCoinParams() {
-            addressHeader = 50; //PIVX 30
-            p2shHeader = 5; //PIVX 13
+            addressHeader = 50;
+            p2shHeader = 5;
             p2shHeader2 = 50;
             acceptableAddressCodes = new int[]{addressHeader, p2shHeader, p2shHeader2};
         }
