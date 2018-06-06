@@ -29,10 +29,10 @@ public class DiamondTest extends AbstractAssetTest {
 
     @Test
     public void testValidAddresses() {
-        assertValidAddress("dFJku78A14HYwPSzC5PtUmda7jMr5pbD2B");
-        assertValidAddress("dAeiBSH4nudXgoxS4kY6uhTPobc7ALrWDA");
-        assertValidAddress("dRbnCYbuMXdKU4y8dya9EnocL47gFjErWe");
-        assertValidAddress("dTPAqTryNRCE2FgsxzohTtJXfCBCDnG6Rc");
+        assertValidAddress("dPZCvVCY9CseU5bhro4Hufh94K27XpMTf7");
+        assertValidAddress("dbWDZbHgaK9UzgvdXYibgxgpzkekoQ6fuW");
+        assertValidAddress("dGeQ2baUmUA453117VNfTPhQQL7bbfDCwA");
+        assertValidAddress("dQqummJgBc5jC1ii1zcbh3dEBHKC3Jpr72");
     }
 
     @Test
