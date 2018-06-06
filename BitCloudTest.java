@@ -29,10 +29,10 @@ public class BitCloudTest extends AbstractAssetTest {
 
     @Test
     public void testValidAddresses() {
-        assertValidAddress("BFJku78A14HYwPSzC5PtUmda7jMr5pbD2B");
-        assertValidAddress("BAeiBSH4nudXgoxS4kY6uhTPobc7ALrWDA");
-        assertValidAddress("BRbnCYbuMXdKU4y8dya9EnocL47gFjErWe");
-        assertValidAddress("BTPAqTryNRCE2FgsxzohTtJXfCBCDnG6Rc");
+        assertValidAddress("B7dtuCkeYcQQiTdr9wAK7HZtmvvrM24jEH");
+        assertValidAddress("BGp8DmF5wwpaDUsK9Mi3SByTDuvgy6XJGS");
+        assertValidAddress("BDL6jpyNge8VB8LL8dEDX1bxfZ3jHGYzS3");
+        assertValidAddress("BKuvEvMrXmPFPC3YGGHHnZoTVYxeddxAjC");
     }
 
     @Test
