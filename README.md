@@ -62,9 +62,11 @@ BUILD SUCCESSFUL
 ## Step 5. Create a well-formed Git commit
 __Single Commit__
 
-Set git log details:
-* "Your Name" with ``git config --global user.name "David Xyz"``
-* "Your Email" with ``git config --global user.email "david.xyz@zzz.net"``
+Set Git metadata "Name" and "Email":
+```
+git config --global user.name "David Xyz"
+git config --global user.email "david.xyz@zzz.net"
+```
 
 Commit changes with:
 ```
@@ -75,11 +77,17 @@ git commit
 List BitCloud (BTDX)
 ```
 
-After ``git commit`` check it GIT author metadata with ``git log``
+Check GIT commit metadata with ``git log``:
 ```
 Author: David Xyz <david.xyz@zzz.net>
 Date:   Wed Aug 1 00:00:00 1979 -0800
 ```
+
+Push changes to your dedicated "list-foo-asset" brunch
+```
+git push
+```
+
 
 ## Step 6. Submit your pull request
 Pull Request to bisq-network/bisq-assets repository’s master branch
