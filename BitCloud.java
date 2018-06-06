@@ -47,18 +47,18 @@ public class BitCloud extends Coin {
  /*
  * src/chainparams.cpp
  * PIVX
- * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30); //0x1E
- * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13); //0x0D
+ * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 30); // 30 => [hex] => 1Exxxx => [Base58 Encode] => Dxxxx
+ * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13); // 13 => [hex] => 0Dxxxx => [Base58 Encode] => 6xxxx
  * 
  * BTDX
- * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25); //0x19
- * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 5);  //0x05
+ * base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25); // 25 => [hex] => 19xxxx => [Base58 Encode] => Bxxxx
+ * base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 5);  // 05 => [hex] => 05xxxx => [Base58 Encode] => 3xxxx
  */ 
     public static class BitCloudParams extends NetworkParametersAdapter {
         
         public BitCloudParams() {
-            addressHeader = 25; //PIVX 30
-            p2shHeader = 5; //PIVX 13
+            addressHeader = 25;
+            p2shHeader = 5;
             acceptableAddressCodes = new int[]{addressHeader, p2shHeader};
         }
     }
