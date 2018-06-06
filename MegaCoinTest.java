@@ -30,9 +30,9 @@ public class MegaCoinTest extends AbstractAssetTest {
     @Test
     public void testValidAddresses() {
         assertValidAddress("MWXQfp3wKnir6krS4SQFAxzv1AExpfFMbq");
-        assertValidAddress("MAeiBSH4nudXgoxS4kY6uhTPobc7ALrWDA");
-        assertValidAddress("MRbnCYbuMXdKU4y8dya9EnocL47gFjErWe");
-        assertValidAddress("MTPAqTryNRCE2FgsxzohTtJXfCBCDnG6Rc");
+        assertValidAddress("MEfn9iWMjowxQaNCZEbtT7A34pvnJGPZ44");
+        assertValidAddress("MRaL1xTj5eAuxMR3xDPxLUG6RP3qR1ijuo");
+        assertValidAddress("M9pCgxBES9EgoNxoUnXxrnaMqYUwZVMttM");
     }
 
     @Test
