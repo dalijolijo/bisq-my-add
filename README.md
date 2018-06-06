@@ -60,12 +60,24 @@ BUILD SUCCESSFUL
 ```
 
 ## Step 5. Create a well-formed Git commit
-__Single Commit Message:__
-```List BitCloud (BTDX)```
+__Single Commit__
 
-Git author metadata with ```git log```
+Set git log details:
+* "Your Name" with ``git config --global user.name "David Xyz"``
+* "Your Email" with ``git config --global user.email "david.xyz@zzz.net"``
+
+Commit changes with:
 ```
-Author: David xy <david.xy@zzz.net>
+cd /root/bisq-asset/
+git add .
+git commit
+
+List BitCloud (BTDX)
+```
+
+After ``git commit`` check it GIT author metadata with ``git log``
+```
+Author: David Xyz <david.xyz@zzz.net>
 Date:   Wed Aug 1 00:00:00 1979 -0800
 ```
 
