@@ -25,7 +25,7 @@
 # How to list an asset
 See https://github.com/bisq-network/bisq-docs/blob/master/exchange/howto/list-asset.adoc
 
-## Step 0. Fork and dedicated branch
+## Step 0. Fork and create dedicated branch
 Fork https://github.com/bisq-network/bisq-assets to own GitHub repository
 
 __Create dedicated branch in your fork__
